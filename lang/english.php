@@ -37,3 +37,7 @@ $_ADDONLANG['no_review_msgs'] = 'No Review messages yet!';
 
 $_ADDONLANG['task_status_change'] = 'Task Status';
 $_ADDONLANG['task_status_approve'] = 'Approve';
+
+$_ADDONLANG['review_msgs_statusonly'] = 'Status Change Request Only';
+
+$_ADDONLANG['review_msgs_status_qry'] = 'Status';

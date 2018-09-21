@@ -126,6 +126,10 @@ class Controller {
 			//Noe The Comments are Read.
 			Capsule::table('review_responses_replies')->where('reviewer_id' , $review->reviewer_id)->where('review_responses_id' , $review->id)->update(['msgstatus' => 1]);
 
+			$status_change = Capsule::table('review_responses_ticket_status_request')	
+										->where('ticketid', $review->ticket_id)
+										->where('review_responses_id', 0)
+										->get();
 			
 			//echo 'WHY';
 			include('view.php');
