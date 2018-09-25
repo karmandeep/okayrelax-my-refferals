@@ -60,7 +60,7 @@ function my_referral_config()
         'description' => 'Review Task responses before client sees them, This Module is for Assistant to respond to their reviews', // Description displayed within the admin interface
         'author' => 'Karmandeep Singh', // Module author name
         'language' => 'english', // Default language
-        'version' => '1.0', // Version number
+        'version' => '1.1', // Version number
         'fields' => array()
     );
 }

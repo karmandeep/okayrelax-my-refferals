@@ -18,7 +18,8 @@ $_ADDONLANG['review_customer'] = "Customer";
 $_ADDONLANG['review_reviewer'] = "Reviewer";
 $_ADDONLANG['review_action'] = "Action";
 
-
+$_ADDONLANG['openrevall'] = "All";
+$_ADDONLANG['openrev'] = "Open";
 $_ADDONLANG['unpublished'] = "Un-Published";
 $_ADDONLANG['underreview'] = "Under-Review";
 $_ADDONLANG['published'] = "Published";
@@ -41,3 +42,4 @@ $_ADDONLANG['task_status_approve'] = 'Approve';
 $_ADDONLANG['review_msgs_statusonly'] = 'Status Change Request Only';
 
 $_ADDONLANG['review_msgs_status_qry'] = 'Status';
+
